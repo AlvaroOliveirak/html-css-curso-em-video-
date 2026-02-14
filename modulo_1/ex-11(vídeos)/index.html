@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor:</p>
+    <video width="500" poster="midia/thumb.jpg" muted autoplay loop controls>
+        <source src="midia/Meuvideo-mp4.mp4" type="video/mp4">
+        <source src="midia/Meuvideo-webm.webm" type="video/webm">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <!-- insere um vídeo.-->
+
+    <h1>Inserindo vídeos hospeados externamente</h1>
+    <h2>Inserindo vídeos do youtube:</h2>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=stJAWAlvFg7rnUAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- usando links do youtube diretamente-->
+    <h2>Inserindo vídeos do Vimeo:</h2>
+    <iframe src="https://player.vimeo.com/video/71127606?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" title="Animation Reel 2022"></iframe>
+    <!-- usando links do vimeo diretamente-->
+</body>
+</html>

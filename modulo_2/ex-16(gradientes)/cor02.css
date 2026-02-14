@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* { /* o simbolo "*" significa "todos os elementos"*/
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+
+}
+p{
+    text-align: justify;
+}
+body{
+    background: linear-gradient(to right, #0D0D0D, #014034, #02735E );
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 15px 10px 15px #033129b4;
+    padding: 10px;
+}
+h1{
+    color: #005545;
+    text-align: center;
+    text-shadow: 1px 2px 2px #01201b7e;
+}
+h2{
+    color: #1e726a;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte/Pré-Formatação</h2>
+    <p>O comando <code>document.getelemntsById('teste')</code> é escrito em linguagem JavaScript</p>
+    <!-- <code> indica para o site que o que está escrito é um código-->
+    <pre>
+        <code>
+num = int(input('digite um número'))
+if num % 2 == 0:
+    print(f' o número {num} é par')
+else:
+    print(f'o número {num} é impar')
+    print('fim do programa')
+        </code>
+    </pre>
+    <!-- <pre> define um texto pré-definido por tipografia-->
+
+    <h2>Citações</h2>
+    <p>como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p><!-- usar o <q> para dar significado de uma citação, as aspas são adicionada automaticamente"--> 
+
+    <h2>citações completas</h2>
+    <p>segundo jeff nobles, no seu livro HTML para leigo:</p>
+
+    <blockquote cite "https://www.amazon.com.br/HTML-para-Leigos-Jeff-Nobles/dp/8545200010"> <!--informação para o sistema, não visual-->
+        <p>HTML é uma linguagem de marcação que permite estruturar e formatar conteúdo na web.</p>
+        <footer>Jeff Nobles, HTML para Leigos</footer>
+        <!-- rodape-->
+    </blockquote>
+    <!--citação em bloco-->
+
+    <h2>Abreviações</h2>
+    <p>estou estudando o <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">estou aprendendo a criar coisas em HTML</bdo></p>
+    <p><bdo dir="rtl">isso aqui é muito inutil kkkkk</bdo></p>
+
+</body>
+</html>
