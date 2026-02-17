@@ -72,12 +72,12 @@ a:hover{
     background-color: var(--cor5);
     border-radius: 3px;
 }
-body{
+html,body{
     background-image:linear-gradient(to top,rgba(43, 36, 36, 0.932), rgba(0, 128, 0, 0.562)) ;
-}
-html{
     overflow-x: hidden;
+    max-width: 100%;
 }
+
 main{
     padding: 10px;
     min-width: 300px;
