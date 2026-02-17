@@ -74,8 +74,7 @@ a:hover{
 }
 html,body{
     background-image:linear-gradient(to top,rgba(43, 36, 36, 0.932), rgba(0, 128, 0, 0.562)) ;
-    overflow-x: hidden;
-    max-width: 100%;
+
 }
 
 main{
