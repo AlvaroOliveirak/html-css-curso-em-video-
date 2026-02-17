@@ -83,6 +83,7 @@ main{
     max-width: fit-content;
     margin: auto;
     background-color: white;
+    margin: 0;
 }
 main a{
     text-decoration: none;
